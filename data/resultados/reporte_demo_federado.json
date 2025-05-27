@@ -1,0 +1,27 @@
+{
+  "timestamp_demo": "2025-05-26T17:51:37.002014",
+  "empresas_participantes": 5,
+  "giros_representados": [
+    "restaurante",
+    "evento",
+    "transporte",
+    "hotel",
+    "spa_wellness"
+  ],
+  "privacidad_garantizada": true,
+  "datos_anonimizados": true,
+  "modelos_agregados_exitosamente": true,
+  "metricas_cluster_generadas": true,
+  "archivos_exportados": {
+    "json": "data\\resultados\\exportaciones\\resultados_agregados_20250526_175136.json",
+    "csv": "data\\resultados\\exportaciones\\metricas_agregadas_20250526_175136.csv"
+  },
+  "resumen_economico": {
+    "ingresos_totales_cluster": 48399491476.51,
+    "ingreso_promedio_diario": 308473.49570752075,
+    "clientes_totales_atendidos": 16695425,
+    "ticket_promedio_cluster": 2898.9673204791134
+  },
+  "nivel_agregacion": "cluster_completo",
+  "empresas_individuales_no_identificables": true
+}

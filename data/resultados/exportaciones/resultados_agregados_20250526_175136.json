@@ -1,0 +1,70 @@
+{
+  "metadatos": {
+    "timestamp_exportacion": "2025-05-26T17:51:36.359867",
+    "tipo_exportacion": "resultados_agregados",
+    "nivel_privacidad": "alto",
+    "datos_anonimizados": true
+  },
+  "metricas_generales": {
+    "resumen_cluster": {
+      "total_giros_representados": 9,
+      "periodo_datos": {
+        "inicio": "2020-01-01",
+        "fin": "2025-12-31"
+      },
+      "total_registros_agregados": 163348
+    },
+    "metricas_economicas": {
+      "ingresos_totales_cluster": 48399491476.51,
+      "ingreso_promedio_diario": 308473.49570752075,
+      "clientes_totales_atendidos": 16695425,
+      "ticket_promedio_cluster": 2898.9673204791134
+    },
+    "metricas_eventos": {
+      "total_eventos_realizados": 1448,
+      "asistentes_totales": 1233135,
+      "asistentes_promedio_evento": 851.6125690607735,
+      "ocupacion_promedio_eventos": 79.09095303867403
+    },
+    "perfil_viajeros": {
+      "total_perfiles_analizados": 5000,
+      "gasto_promedio_viajero": 42775.087534000006,
+      "estancia_promedio_dias": 5.2474,
+      "tipos_viajero_representados": 10
+    },
+    "tendencias_estacionales": {
+      "1": 0.34257984922494844,
+      "2": 0.26877140898192203,
+      "3": 0.4737523917248476,
+      "4": 1.0301875480267886,
+      "5": 1.1271771187739994,
+      "6": 1.6228818780049088,
+      "7": 1.9880006263408088,
+      "8": 1.841770408162379,
+      "9": 0.8471832530782739,
+      "10": 0.5942139504536645,
+      "11": 0.425242648665201,
+      "12": 1.4382389185622602
+    },
+    "timestamp_calculo": "2025-05-26T17:51:36.685007",
+    "nivel_agregacion": "cluster_completo",
+    "privacidad": {
+      "datos_anonimizados": true,
+      "nivel_agregacion": "alto",
+      "empresas_individuales_no_identificables": true
+    }
+  },
+  "estadisticas_sistema": {
+    "sistema": {
+      "total_contribuciones": 16,
+      "modelos_agregados": 2,
+      "predicciones_generadas": 0,
+      "consultas_realizadas": 0
+    },
+    "almacenamiento": {
+      "directorio_base": "data\\resultados",
+      "size_db_mb": 0.0390625
+    },
+    "timestamp": "2025-05-26T17:51:36.687838"
+  }
+}

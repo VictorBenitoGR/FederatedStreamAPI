@@ -1,0 +1,12 @@
+{
+  "id": "contrib_pred_1_1748301935",
+  "timestamp": "2025-05-26T17:25:32.692527",
+  "tipo_modelo": "unknown",
+  "num_parametros": 7,
+  "metricas_validacion": {
+    "mse": 2684.385759552283,
+    "r2": 0.3996049530866741,
+    "mae": 41.36311739383525
+  },
+  "num_muestras": 1640
+}

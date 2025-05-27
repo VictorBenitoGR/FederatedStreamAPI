@@ -1,0 +1,13 @@
+{
+  "id": "contrib_clf_4_1748303494",
+  "timestamp": "2025-05-26T17:51:34.236540",
+  "tipo_modelo": "unknown",
+  "num_parametros": 5,
+  "metricas_validacion": {
+    "accuracy": 0.81,
+    "precision": 0.7909099099099101,
+    "recall": 0.81,
+    "f1": 0.7950248679796104
+  },
+  "num_muestras": 400
+}

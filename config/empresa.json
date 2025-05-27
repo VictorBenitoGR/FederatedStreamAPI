@@ -1,0 +1,43 @@
+{
+  "empresa": {
+    "id": "1936f244bbdb0f32",
+    "nombre": "ejemplo",
+    "giro": "agencia_viajes",
+    "fecha_configuracion": "2025-05-26T18:14:27.475044"
+  },
+  "datos": {
+    "ruta_local": "data/mi_empresa/",
+    "formatos_soportados": [
+      "csv",
+      "json",
+      "xlsx"
+    ],
+    "campos_requeridos": [
+      "fecha",
+      "ingresos",
+      "numero_clientes",
+      "destinos",
+      "tipo_paquete",
+      "duracion_viaje"
+    ]
+  },
+  "conexion": {
+    "api_url": "https://api.cluster-turismo-nl.com",
+    "timeout": 30,
+    "reintentos": 3
+  },
+  "privacidad": {
+    "anonimizacion_activa": true,
+    "ruido_local": true,
+    "validacion_automatica": true,
+    "min_muestras_entrenamiento": 100
+  },
+  "modelos": {
+    "tipos_habilitados": [
+      "prediccion_demanda",
+      "clasificacion_viajero"
+    ],
+    "frecuencia_entrenamiento": "semanal",
+    "auto_envio": false
+  }
+}

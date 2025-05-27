@@ -1,0 +1,13 @@
+{
+  "tipo_modelo": "prediccion_demanda",
+  "parametros_agregados": {},
+  "num_contribuciones": 4,
+  "metricas_agregadas": {
+    "mse": 1266.8546072095673,
+    "r2": 0.18966707368110491,
+    "mae": 26.202379996016937
+  },
+  "timestamp_agregacion": "2025-05-26T17:51:34.524777",
+  "confianza": 0.067,
+  "version": "1.0"
+}
