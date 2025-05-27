@@ -6,45 +6,49 @@
 
 ## 🏢 **PARA EMPRESAS DEL CLÚSTER**
 
-### ¿Qué es el Sistema Federado?
+### ¿Qué es el sistema federado?
+Hemos desarrollado un sistema de aprendizaje federado que permite a las empresas turísticas colaborar en analítica e inteligencia artificial sin comprometer la privacidad de sus datos, permitiendo:
 
-El sistema permite que tu empresa:
-- **Mejore sus predicciones** usando el conocimiento colectivo del clúster
-- **Compare su rendimiento** de forma anónima con otras empresas
-- **Tome mejores decisiones** basadas en tendencias del sector
-- **Mantenga privacidad total** - tus datos nunca salen de tu empresa
+- **Mejorar sus predicciones** usando el conocimiento colectivo del clúster
+- **Comparar su rendimiento** de forma anónima con otras empresas
+- **Tomar mejores decisiones** basadas en tendencias del sector
+- **Mantener privacidad total** - tus datos nunca salen de tu empresa
 
-### 🚀 Inicio Rápido para Empresas
+### 🌐 **API EN PRODUCCIÓN**
+**URL:** `https://federatedstreamapi.onrender.com`
+**Estado:** ✅ **ACTIVA Y FUNCIONANDO**
 
-#### 1. Configuración Inicial
+### 🚀 Inicio rápido para empresas
+
+#### 1. Configuración inicial
 ```bash
 # Descargar el cliente federado
-git clone <repository-url>
+git clone <https://github.com/VictorBenitoGR/FederatedStreamAPI>
 cd FederatedStreamAPI
 
 # Instalar dependencias
 pip install -r requirements.txt
 ```
 
-#### 2. Configurar tu Empresa
+#### 2. Configurar tu empresa
 ```bash
 # Ejecutar el configurador de empresa
 python scripts/configurar_empresa.py
 ```
 
-#### 3. Entrenar y Enviar Modelos
+#### 3. Entrenar y enviar modelos
 ```bash
 # Entrenar modelos con tus datos y enviarlos al clúster
 python scripts/entrenar_y_enviar.py
 ```
 
-#### 4. Consultar Resultados del Clúster
+#### 4. Consultar resultados del clúster
 ```bash
 # Obtener insights del clúster para tomar decisiones
 python scripts/consultar_cluster.py
 ```
 
-### 📊 Casos de Uso Principales
+### 📊 Casos de uso principales
 
 #### **Predicción de Demanda**
 Predice la demanda futura basada en patrones del clúster completo:
@@ -52,19 +56,19 @@ Predice la demanda futura basada en patrones del clúster completo:
 python scripts/predecir_demanda.py --giro hotel --fecha-inicio 2025-07-01 --fecha-fin 2025-08-31
 ```
 
-#### **Benchmarking Anónimo**
+#### **Benchmarking anónimo**
 Compara tu rendimiento con el promedio del sector:
 ```bash
 python scripts/benchmark_anonimo.py --mi-giro restaurante
 ```
 
-#### **Análisis de Tendencias**
+#### **Análisis de tendencias**
 Identifica tendencias estacionales y oportunidades:
 ```bash
 python scripts/analizar_tendencias.py --giro agencia_viajes
 ```
 
-### 🔒 Garantías de Privacidad
+### 🔒 Garantías de privacidad
 
 - ✅ **Tus datos nunca salen** de tu empresa
 - ✅ **IDs completamente anonimizados** (imposible rastrear)
@@ -72,42 +76,43 @@ python scripts/analizar_tendencias.py --giro agencia_viajes
 - ✅ **Ruido diferencial** para mayor seguridad
 - ✅ **Auditoría independiente** de privacidad
 
-### 📞 Soporte para Empresas
+### 📞 Soporte para empresas
 
-- **Email**: soporte@cluster-turismo-nl.com
-- **Teléfono**: +52 (81) 1234-5678
-- **Documentación**: [docs.cluster-turismo-nl.com](https://docs.cluster-turismo-nl.com)
+- **URL de la API**: `https://federatedstreamapi.onrender.com`
+- **Documentación de la API**: [API_PUBLICA.md](./API_PUBLICA.md)
+- **Ejemplos de Next.js**: [ejemplos_nextjs/README.md](./ejemplos_nextjs/README.md)
+- **Email**: victorbenitogr@gmail.com
 
 ---
 
 ## 🛠️ **PARA DESARROLLADORES**
 
-### Arquitectura del Sistema
+### Arquitectura del sistema
 
-#### Componentes Principales
+#### Componentes principales
 
-1. **API Federada** (`src/api/`)
+1. **API federada** (`src/api/`)
    - Servidor FastAPI que recibe modelos anonimizados
    - Agregación federada de parámetros de modelos
    - Generación de predicciones y métricas del clúster
 
-2. **Cliente Federado** (`src/cliente/`)
+2. **Cliente federado** (`src/cliente/`)
    - Entrenamiento local de modelos de ML
    - Anonimización completa de parámetros
    - Envío seguro a la API federada
 
-3. **Scripts para Empresas** (`scripts/`)
+3. **Scripts para empresas** (`scripts/`)
    - Herramientas fáciles de usar para empresas
    - Configuración automática
    - Workflows simplificados
 
-4. **Generación de Datos** (`src/datos_sinteticos/`)
+4. **Generación de datos** (`src/datos_sinteticos/`)
    - Datos sintéticos realistas para desarrollo y testing
    - 100 empresas dummy con tendencias estacionales
 
-### 🚀 Configuración de Desarrollo
+### 🚀 Configuración de desarrollo
 
-#### 1. Entorno de Desarrollo
+#### 1. Entorno de desarrollo
 ```bash
 # Clonar repositorio
 git clone <repository-url>
@@ -122,7 +127,7 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-#### 2. Generar Datos de Prueba
+#### 2. Generar datos de prueba
 ```bash
 # Generar datos sintéticos completos
 python src/datos_sinteticos/generar_todos_datos.py
@@ -131,7 +136,7 @@ python src/datos_sinteticos/generar_todos_datos.py
 python src/datos_sinteticos/analizar_datos.py
 ```
 
-#### 3. Ejecutar Tests y Demos
+#### 3. Ejecutar tests y demostraciones
 ```bash
 # Demostración completa del sistema
 python src/demo/demo_federado.py
@@ -140,16 +145,19 @@ python src/demo/demo_federado.py
 python src/demo/test_api_completa.py
 ```
 
-#### 4. Iniciar API en Desarrollo
+#### 4. Iniciar API en desarrollo
 ```bash
-# Servidor de desarrollo
-python src/api/main.py
+# Servidor de desarrollo local
+python start.py
 
-# O con uvicorn
+# O con uvicorn directamente
 uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
+
+# API en producción (ya desplegada)
+# https://federatedstreamapi.onrender.com
 ```
 
-### 📁 Estructura del Proyecto
+### 📁 Estructura del proyecto
 
 ```
 FederatedStreamAPI/
@@ -171,9 +179,9 @@ FederatedStreamAPI/
 └── docs/                              # Documentación técnica
 ```
 
-### 🔧 APIs y Endpoints
+### 🔧 APIs y endpoints
 
-#### Endpoints para Empresas
+#### Endpoints para empresas
 ```
 POST /federated/submit-model           # Enviar modelo entrenado
 POST /federated/submit-metrics         # Enviar métricas agregadas
@@ -185,30 +193,30 @@ POST /predictions/demand               # Predicciones de demanda
 GET  /predictions/trends/{giro}        # Tendencias por giro
 ```
 
-#### Endpoints de Administración
+#### Endpoints de administración
 ```
 GET  /health                           # Estado del sistema
 GET  /admin/stats                      # Estadísticas del sistema
 POST /admin/export-results             # Exportar resultados
 ```
 
-### 📊 Datos Sintéticos Generados
+### 📊 Datos sintéticos generados
 
-#### Características de los Datos
+#### Características de los datos
 - **167,387 registros** totales
 - **100 empresas** dummy con 10 giros turísticos
 - **Tendencias realistas**: estacionalidad, patrones semanales, crecimiento anual
 - **Tipos de viajeros**: 10 perfiles diferentes con gastos variables
 
-#### Tendencias Implementadas
+#### Tendencias implementadas
 1. **Estacionalidad**: Verano +80%, Diciembre pico, Febrero baja
-2. **Patrones Semanales**: Restaurantes +80% fines de semana
-3. **Crecimiento Anual**: 1.5-2.5% según el giro
-4. **Giros Específicos**: Hoteles picos en vacaciones, eventos en verano
+2. **Patrones semanales**: Restaurantes +80% fines de semana
+3. **Crecimiento anual**: 1.5-2.5% según el giro
+4. **Giros específicos**: Hoteles picos en vacaciones, eventos en verano
 
-### 🧪 Testing y Validación
+### 🧪 Testing y validación
 
-#### Tests Automatizados
+#### Tests automatizados
 ```bash
 # Test completo del sistema
 python -m pytest tests/
@@ -220,15 +228,15 @@ python tests/test_privacidad.py
 python tests/test_rendimiento.py
 ```
 
-#### Validación de Privacidad
+#### Validación de privacidad
 - **Anonimización**: SHA-256 + 1000 iteraciones + salt único
-- **Ruido Local**: Ruido gaussiano aplicado a parámetros
-- **Ruido Diferencial**: Ruido Laplaciano en resultados agregados
-- **Validación Automática**: Verificación de que no hay información identificable
+- **Ruido local**: Ruido gaussiano aplicado a parámetros
+- **Ruido diferencial**: Ruido Laplaciano en resultados agregados
+- **Validación automática**: Verificación de que no hay información identificable
 
-### 🤝 Contribución al Proyecto
+### 🤝 Contribución al proyecto
 
-#### Workflow de Desarrollo
+#### Workflow de desarrollo
 1. Fork el repositorio
 2. Crear rama para tu feature: `git checkout -b feature/nueva-funcionalidad`
 3. Commit cambios: `git commit -m "Agregar nueva funcionalidad"`
@@ -241,17 +249,17 @@ python tests/test_rendimiento.py
 - **Testing**: Cobertura mínima del 80%
 - **Privacidad**: Validación automática de anonimización
 
-#### Áreas de Contribución
+#### Áreas de contribución
 - **Nuevos algoritmos ML**: Implementar otros tipos de modelos federados
 - **Optimización**: Mejorar rendimiento para cientos de empresas
 - **Seguridad**: Auditoría y mejoras de privacidad
 - **UI/UX**: Dashboard web para empresas
 - **Documentación**: Guías y tutoriales
 
-### 📄 Licencia y Contacto
+### 📄 Licencia y contacto
 
 - **Licencia**: GNU General Public License 3.0
-- **Contacto Técnico**: victorbenitogr@gmail.com
+- **Contacto técnico**: victorbenitogr@gmail.com
 - **Repositorio**: [GitHub](https://github.com/cluster-turismo-nl/federated-api)
 
 ---
