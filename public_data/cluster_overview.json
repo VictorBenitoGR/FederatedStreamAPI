@@ -1,0 +1,33 @@
+{
+  "cluster_stats": {
+    "total_giros": 9,
+    "periodo_datos": {
+      "inicio": "2020-01-01",
+      "fin": "2025-12-31"
+    },
+    "total_registros": 163348
+  },
+  "economia": {
+    "ingresos_totales": 48399491477,
+    "ingreso_promedio_diario": 308473,
+    "clientes_totales": 16695425,
+    "ticket_promedio": 2899
+  },
+  "eventos": {
+    "total_eventos": 1448,
+    "asistentes_totales": 1233135,
+    "asistentes_promedio": 852,
+    "ocupacion_promedio": 79.1
+  },
+  "viajeros": {
+    "perfiles_analizados": 5000,
+    "gasto_promedio": 42775,
+    "estancia_promedio": 5.2,
+    "tipos_viajero": 10
+  },
+  "metadata": {
+    "ultima_actualizacion": "2025-05-26T17:51:36.685007",
+    "nivel_privacidad": "datos_completamente_anonimos",
+    "empresas_identificables": false
+  }
+}

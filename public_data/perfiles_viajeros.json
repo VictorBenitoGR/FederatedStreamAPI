@@ -1,0 +1,106 @@
+{
+  "perfiles_viajeros": [
+    {
+      "tipo_viajero": "lujo",
+      "cantidad": 172,
+      "porcentaje": 3.4,
+      "gasto_promedio": 209067,
+      "edad_promedio": 52,
+      "estancia_promedio": 5.8,
+      "grupo_promedio": 2.6
+    },
+    {
+      "tipo_viajero": "wellness",
+      "cantidad": 100,
+      "porcentaje": 2.0,
+      "gasto_promedio": 60998,
+      "edad_promedio": 42,
+      "estancia_promedio": 4.6,
+      "grupo_promedio": 2.6
+    },
+    {
+      "tipo_viajero": "familiar",
+      "cantidad": 1467,
+      "porcentaje": 29.3,
+      "gasto_promedio": 59833,
+      "edad_promedio": 35,
+      "estancia_promedio": 5.0,
+      "grupo_promedio": 4.0
+    },
+    {
+      "tipo_viajero": "aventura",
+      "cantidad": 762,
+      "porcentaje": 15.2,
+      "gasto_promedio": 40975,
+      "edad_promedio": 30,
+      "estancia_promedio": 9.5,
+      "grupo_promedio": 2.6
+    },
+    {
+      "tipo_viajero": "cultural",
+      "cantidad": 479,
+      "porcentaje": 9.6,
+      "gasto_promedio": 34196,
+      "edad_promedio": 48,
+      "estancia_promedio": 5.9,
+      "grupo_promedio": 2.4
+    },
+    {
+      "tipo_viajero": "romantico",
+      "cantidad": 407,
+      "porcentaje": 8.1,
+      "gasto_promedio": 26556,
+      "edad_promedio": 35,
+      "estancia_promedio": 3.4,
+      "grupo_promedio": 2.0
+    },
+    {
+      "tipo_viajero": "gastronomico",
+      "cantidad": 309,
+      "porcentaje": 6.2,
+      "gasto_promedio": 25392,
+      "edad_promedio": 42,
+      "estancia_promedio": 2.9,
+      "grupo_promedio": 2.6
+    },
+    {
+      "tipo_viajero": "deportivo",
+      "cantidad": 95,
+      "porcentaje": 1.9,
+      "gasto_promedio": 22248,
+      "edad_promedio": 32,
+      "estancia_promedio": 4.2,
+      "grupo_promedio": 2.5
+    },
+    {
+      "tipo_viajero": "mochilero",
+      "cantidad": 213,
+      "porcentaje": 4.3,
+      "gasto_promedio": 19479,
+      "edad_promedio": 25,
+      "estancia_promedio": 13.1,
+      "grupo_promedio": 1.6
+    },
+    {
+      "tipo_viajero": "negocios",
+      "cantidad": 996,
+      "porcentaje": 19.9,
+      "gasto_promedio": 11568,
+      "edad_promedio": 41,
+      "estancia_promedio": 1.9,
+      "grupo_promedio": 1.5
+    }
+  ],
+  "estadisticas_generales": {
+    "total_perfiles": 5000,
+    "gasto_promedio_general": 42775,
+    "edad_promedio_general": 37,
+    "estancia_promedio_general": 5.2,
+    "tipos_viajero_unicos": 10
+  },
+  "metadata": {
+    "datos_completamente_anonimos": true,
+    "sin_informacion_personal": true,
+    "ultima_actualizacion": "2025-05-26T18:36:27.624964"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "api_endpoints": {
+    "base_url": "https://federatedstreamapi.onrender.com",
+    "endpoints": {
+      "cluster_overview": "/public/cluster/overview",
+      "tendencias_estacionales": "/public/cluster/tendencias-estacionales",
+      "estadisticas_giros": "/public/giros/estadisticas",
+      "resumen_eventos": "/public/eventos/resumen",
+      "perfiles_viajeros": "/public/viajeros/perfiles",
+      "export_all": "/public/export/all"
+    }
+  },
+  "archivos_estaticos": {
+    "directorio": "./public_data/",
+    "archivos": [
+      "cluster_overview.json",
+      "tendencias_estacionales.json",
+      "perfiles_viajeros.json",
+      "all_data.json"
+    ]
+  },
+  "configuracion_cors": {
+    "allowed_origins": [
+      "*"
+    ],
+    "allowed_methods": [
+      "GET"
+    ],
+    "cache_control": "public, max-age=3600"
+  }
+}

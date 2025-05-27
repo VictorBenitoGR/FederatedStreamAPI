@@ -1,0 +1,95 @@
+{
+  "tendencias_mensuales": [
+    {
+      "mes": "Enero",
+      "mes_numero": 1,
+      "factor_estacional": 0.343,
+      "porcentaje_vs_promedio": -65.7
+    },
+    {
+      "mes": "Febrero",
+      "mes_numero": 2,
+      "factor_estacional": 0.269,
+      "porcentaje_vs_promedio": -73.1
+    },
+    {
+      "mes": "Marzo",
+      "mes_numero": 3,
+      "factor_estacional": 0.474,
+      "porcentaje_vs_promedio": -52.6
+    },
+    {
+      "mes": "Abril",
+      "mes_numero": 4,
+      "factor_estacional": 1.03,
+      "porcentaje_vs_promedio": 3.0
+    },
+    {
+      "mes": "Mayo",
+      "mes_numero": 5,
+      "factor_estacional": 1.127,
+      "porcentaje_vs_promedio": 12.7
+    },
+    {
+      "mes": "Junio",
+      "mes_numero": 6,
+      "factor_estacional": 1.623,
+      "porcentaje_vs_promedio": 62.3
+    },
+    {
+      "mes": "Julio",
+      "mes_numero": 7,
+      "factor_estacional": 1.988,
+      "porcentaje_vs_promedio": 98.8
+    },
+    {
+      "mes": "Agosto",
+      "mes_numero": 8,
+      "factor_estacional": 1.842,
+      "porcentaje_vs_promedio": 84.2
+    },
+    {
+      "mes": "Septiembre",
+      "mes_numero": 9,
+      "factor_estacional": 0.847,
+      "porcentaje_vs_promedio": -15.3
+    },
+    {
+      "mes": "Octubre",
+      "mes_numero": 10,
+      "factor_estacional": 0.594,
+      "porcentaje_vs_promedio": -40.6
+    },
+    {
+      "mes": "Noviembre",
+      "mes_numero": 11,
+      "factor_estacional": 0.425,
+      "porcentaje_vs_promedio": -57.5
+    },
+    {
+      "mes": "Diciembre",
+      "mes_numero": 12,
+      "factor_estacional": 1.438,
+      "porcentaje_vs_promedio": 43.8
+    }
+  ],
+  "temporada_alta": {
+    "mes": "Julio",
+    "mes_numero": 7,
+    "factor_estacional": 1.988,
+    "porcentaje_vs_promedio": 98.8
+  },
+  "temporada_baja": {
+    "mes": "Febrero",
+    "mes_numero": 2,
+    "factor_estacional": 0.269,
+    "porcentaje_vs_promedio": -73.1
+  },
+  "metadata": {
+    "periodo_analisis": {
+      "inicio": "2020-01-01",
+      "fin": "2025-12-31"
+    },
+    "ultima_actualizacion": "2025-05-26T18:36:26.966224"
+  }
+}
