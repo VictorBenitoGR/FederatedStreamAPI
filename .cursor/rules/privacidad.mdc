@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Al tratarse de aprendizaje y analítica federada, tiene que ser imposible incluso para el administrador de este sistema la posibilidad de inferir qué empresa ha proporcionado qué datos, por lo tanto los datos deben anonimizarse completamente y cualquier identificador de empresa debe ser irreconocible, irreversiblemente transformado o eliminado. El sistema no debe almacenar metadatos que permitan rastrear el origen de los datos

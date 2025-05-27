@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+En Render necesitamos hacer un prototipo de API en python para el Clúster de Turismo de Nuevo León, la cual funcionará como sistema de analítica y aprendizaje federado para las emrpesas de turismo que conforman el Clúster.
+
+El prototipo debe centrarse en casos como los siguientes:
+
+1. Datos de eventos atendidos con número de asistentes.
+2. Datos comerciales para análisis de mercado basados en el perfil del viajero.
+3. Radios de conversión de publicidad dirigida.
+4. Ventas por giro (hoteles, restaurantes, agencias de viajes, al menos) para ver si hay diferencias en picos de ventas por temporada.
+
+5. En general el gasto del viajero para actualizar el gasto promedio del destino.

@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Generar muestras de datos sintéticos simples de 100 empresas dummy mediante script, con fechas entre 2020 y 2025. Los datos deben tener tendencias implantadas (por ejemplo, aumentos estacionales, cambios por año, patrones semanales), no ser completamente aleatorios, para que sean útiles en el análisis del prototipo.
+
+# Ejemplo de datos
+
+1. Eventos con más asistentes en verano.
+2. Ventas más altas para hoteles en vacaciones.
+3. Mayor gasto en restaurantes fines de semana.
+4. Campañas de publicidad con mejor conversión en meses específicos.
+5. Perfil de viajero que gasta más durante ciertos meses.
+
+# Casos a cubrir:
+
+1. Eventos con número de asistentes.
+2. Datos comerciales para análisis de mercado (perfil del viajero).
+3. Radios de conversión de publicidad.
+4. Ventas por giro (hoteles, restaurantes, agencias de viaje).
+5. Gasto promedio del viajero.
+
+# API:
+
+1. CRUD básico de cada tipo de dato.
+2. Endpoints para obtener métricas agregadas (por mes, giro, perfil de viajero).
+
+
+3. Endpoint para simular entrenamiento federado (por empresa, sin compartir datos crudos).
